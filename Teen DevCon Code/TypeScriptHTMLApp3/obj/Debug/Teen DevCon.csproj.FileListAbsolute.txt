@@ -4,3 +4,9 @@ c:\users\nate\documents\visual studio 2013\Projects\TypeScriptHTMLApp3\TypeScrip
 c:\users\nate\documents\visual studio 2013\Projects\TypeScriptHTMLApp3\TypeScriptHTMLApp3\obj\Debug\Teen DevCon.csprojResolveAssemblyReference.cache
 c:\users\nate\documents\visual studio 2013\Projects\TypeScriptHTMLApp3\TypeScriptHTMLApp3\obj\Debug\Teen DevCon.dll
 c:\users\nate\documents\visual studio 2013\Projects\TypeScriptHTMLApp3\TypeScriptHTMLApp3\obj\Debug\Teen DevCon.pdb
+C:\Users\Nate\Documents\code\TeenDevCon\Teen DevCon Code\TypeScriptHTMLApp3\bin\Teen DevCon.dll.config
+C:\Users\Nate\Documents\code\TeenDevCon\Teen DevCon Code\TypeScriptHTMLApp3\bin\Teen DevCon.dll
+C:\Users\Nate\Documents\code\TeenDevCon\Teen DevCon Code\TypeScriptHTMLApp3\bin\Teen DevCon.pdb
+C:\Users\Nate\Documents\code\TeenDevCon\Teen DevCon Code\TypeScriptHTMLApp3\obj\Debug\Teen DevCon.csprojResolveAssemblyReference.cache
+C:\Users\Nate\Documents\code\TeenDevCon\Teen DevCon Code\TypeScriptHTMLApp3\obj\Debug\Teen DevCon.dll
+C:\Users\Nate\Documents\code\TeenDevCon\Teen DevCon Code\TypeScriptHTMLApp3\obj\Debug\Teen DevCon.pdb
