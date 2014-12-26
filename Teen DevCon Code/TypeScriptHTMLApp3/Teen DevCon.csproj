@@ -18,20 +18,80 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app.css" />
+    <Content Include="Content\css\app.css" />
+    <Content Include="Content\Template\css\bootstrap.css" />
+    <Content Include="Content\Template\css\bootstrap.min.css" />
+    <Content Include="Content\Template\css\grayscale.css" />
+    <Content Include="Content\Template\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\Template\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\Template\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Template\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Template\img\downloads-bg.jpg" />
+    <Content Include="Content\Template\img\intro-bg.jpg" />
+    <Content Include="Content\Template\img\map-marker.png" />
+    <Content Include="Content\Template\js\bootstrap.js" />
+    <Content Include="Content\Template\js\bootstrap.min.js" />
+    <Content Include="Content\Template\js\grayscale.js" />
+    <Content Include="Content\Template\js\jquery.easing.min.js" />
+    <Content Include="Content\Template\js\jquery.js" />
     <Content Include="index.html" />
+    <Content Include="index2.html" />
+    <Content Include="packages.config" />
+    <Content Include="Content\Template\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\Template\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\Template\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\Template\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\Template\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Content\Template\font-awesome\less\core.less" />
+    <Content Include="Content\Template\font-awesome\less\fixed-width.less" />
+    <Content Include="Content\Template\font-awesome\less\font-awesome.less" />
+    <Content Include="Content\Template\font-awesome\less\icons.less" />
+    <Content Include="Content\Template\font-awesome\less\larger.less" />
+    <Content Include="Content\Template\font-awesome\less\list.less" />
+    <Content Include="Content\Template\font-awesome\less\mixins.less" />
+    <Content Include="Content\Template\font-awesome\less\path.less" />
+    <Content Include="Content\Template\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Content\Template\font-awesome\less\spinning.less" />
+    <Content Include="Content\Template\font-awesome\less\stacked.less" />
+    <Content Include="Content\Template\font-awesome\less\variables.less" />
+    <Content Include="Content\Template\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_core.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_icons.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_larger.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_list.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_mixins.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_path.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_spinning.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_stacked.scss" />
+    <Content Include="Content\Template\font-awesome\scss\_variables.scss" />
+    <Content Include="Content\Template\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\Template\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\Template\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\Template\less\grayscale.less" />
+    <Content Include="Content\Template\less\mixins.less" />
+    <Content Include="Content\Template\less\variables.less" />
+    <None Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.0.js" />
+    <Content Include="Scripts\jquery-1.9.0.min.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\jquery-1.9.0.min.map" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
