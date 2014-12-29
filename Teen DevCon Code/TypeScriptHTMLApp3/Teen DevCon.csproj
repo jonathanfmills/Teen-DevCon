@@ -21,7 +21,6 @@
     <Content Include="Content\css\app.css" />
     <Content Include="Content\Template\css\bootstrap.css" />
     <Content Include="Content\Template\css\bootstrap.min.css" />
-    <Content Include="Content\Template\css\grayscale.css" />
     <Content Include="Content\Template\font-awesome\css\font-awesome.css" />
     <Content Include="Content\Template\font-awesome\css\font-awesome.min.css" />
     <Content Include="Content\Template\font-awesome\fonts\fontawesome-webfont.svg" />
@@ -34,7 +33,15 @@
     <Content Include="Content\Template\js\grayscale.js" />
     <Content Include="Content\Template\js\jquery.easing.min.js" />
     <Content Include="Content\Template\js\jquery.js" />
-    <Content Include="index.html" />
+    <Content Include="Content\Template\css\grayscale.css">
+      <DependentUpon>grayscale.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Template\css\grayscale.min.css">
+      <DependentUpon>grayscale.css</DependentUpon>
+    </Content>
+    <Content Include="index.html">
+      <BrowseToURL>~/index2.html</BrowseToURL>
+    </Content>
     <Content Include="index2.html" />
     <Content Include="packages.config" />
     <Content Include="Content\Template\font-awesome\fonts\fontawesome-webfont.eot" />
@@ -70,9 +77,12 @@
     <Content Include="Content\Template\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\Template\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\Template\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\Template\less\grayscale.less" />
-    <Content Include="Content\Template\less\mixins.less" />
-    <Content Include="Content\Template\less\variables.less" />
+    <Content Include="Content\Template\css\grayscale.less" />
+    <Content Include="Content\Template\css\mixins.less" />
+    <Content Include="Content\Template\css\variables.less" />
+    <Content Include="Content\Template\css\grayscale.css.map">
+      <DependentUpon>grayscale.css</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.0.js" />
     <Content Include="Scripts\jquery-1.9.0.min.js" />
@@ -92,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\images\" />
+    <Folder Include="Content\Template\less\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

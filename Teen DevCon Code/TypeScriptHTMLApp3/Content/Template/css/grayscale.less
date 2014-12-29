@@ -62,7 +62,7 @@ a {
     border-bottom: 1px solid fade(@light, 30%);
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: @dark;
+    background-color: @light;
     .navbar-brand {
         font-weight: 700;
         &:focus {
@@ -71,7 +71,7 @@ a {
         .navbar-toggle {
             padding: 4px 6px;
             font-size: 16px;
-            color: @light;
+            color: @dark;
             &:focus,
             &:active {
                 outline: none;
@@ -79,13 +79,13 @@ a {
         }
     }
     a {
-        color: @light;
+        color: @dark;
     }
     .nav {
         li {
             &.active {
                 outline: nonte;
-                background-color: fade(@light, 30%);
+                background-color: fade(@dark, 30%);
             }
             a {
                 -webkit-transition: background .3s ease-in-out;
@@ -95,7 +95,7 @@ a {
                 &:focus,
                 &.active {
                     outline: none;
-                    background-color: fade(@light, 30%);
+                    background-color: fade(@dark, 30%);
                 }
             }
         }
@@ -103,7 +103,7 @@ a {
 }
 
 @media(min-width:767px) {
-    .navbar {
+   /* .navbar {
         padding: 20px 0;
         border-bottom: none;
         letter-spacing: 1px;
@@ -111,11 +111,11 @@ a {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
+    }*/
 
     .top-nav-collapse {
         padding: 0;
-        background-color: @dark;
+        background-color: @light;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -130,7 +130,7 @@ a {
     padding: 100px 0;
     text-align: center;
     color: @light;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    //background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: @dark;
     -webkit-background-size: cover;
     -moz-background-size: cover;
